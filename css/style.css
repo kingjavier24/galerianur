@@ -1,0 +1,652 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.kawalogo img{
+    background-color: hotpink;
+    margin-left: 60px;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+.zusukilogo img{
+    background-color: seashell;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 73px;
+}
+.hondalogo img{
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+.benelilogo img{
+    margin-left: 900px;
+    margin-top: -105px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 78px;
+}
+.bmwlogo img{
+    margin-left: 1200px;
+    margin-top: -105px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+.galeriaon{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.kawatitu ul li {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.kawatitu ul li a{
+    margin-top: 200px;
+}
+.kawa250 img{
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.kawaexp ul li{
+    width:80%;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.kawaexp ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.kawaexp ul{
+    margin-top: 350px;
+}
+.klxmoto img{
+    width: 350px;
+    height: 264px;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.zxmoto img{
+    width: 350px;
+    height: 264px;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.Giottotitu ul li {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-left: 400px;
+    font-size: 50px;
+}
+.Giottotitu ul li a{
+    margin-top: 200px;
+}
+.gioto1 img{
+    width: 350px;
+    height: 264px;
+    margin-top: 500px;
+    margin-left: 40px;
+}
+.gioto2 img{
+    width: 350px;
+    height: 264px;
+    margin-top: 500px;
+    margin-left: 40px;
+}
+.gioto3 img{
+    width: 350px;
+    height: 264px;
+    margin-top: 500px;
+    margin-left: 40px;
+}
+.gioto4 img{
+    width: 650px;
+    height: 264px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.giotobio ul li{
+    width:80%;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.giotobio ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.giotobio ul{
+    margin-top: 650px;
+}
+.vici1 img{
+    width: 350px;
+    height: 404px;
+    margin-top: 800px;
+    margin-left: -900px;
+}
+.vici2 img{
+    margin-top: 800px;
+    margin-left: -480px;
+}
+.vici3 img{
+    width: 350px;
+    height: 404px;
+    margin-top: 800px;
+    margin-left: -60px;
+}
+.vici4 img{
+    width: 350px;
+    height: 404px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.vici5 img{
+    width: 650px;
+    height: 404px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.leonarbio ul li{
+    width:80%;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.leonarbio ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.leonarbio ul{
+    margin-top: 1000px;
+}
+.paultitu ul li {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.paultitu ul li a{
+    margin-top: 200px;
+}
+.paul1 img{
+    width: 300px;
+    margin-top: 550px;
+    margin-left: 60px;
+}
+.paul2 img{
+    width: 300px;
+    margin-top: 550px;
+    margin-left: 60px;
+}
+.paul3 img{
+    width: 300px;
+    margin-top: 550px;
+    margin-left: 60px;
+}
+.paul4 img{
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.paul5 img{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.paul6 img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.paulbio ul li{
+    width:80%;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.paulbio ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.paulbio ul{
+    margin-top: 800px;
+}
+.remtitu ul li {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-left: 300px;
+    font-size: 50px;
+}
+.remtitu ul li a{
+    margin-top: 200px;
+}
+.rem1 img{
+    margin-top: 550px;
+    margin-left: 60px;
+}
+.rem2 img{
+    margin-top: 550px;
+    margin-left: 60px;
+}
+.rem3 img{
+    width: 500px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.rem4 img{
+    width: 350px;
+    height: 400px;
+    margin-top: -800px;
+    margin-left: 420px;
+}
+.rem5 img{
+    width: 350px;
+    margin-top: -500px;
+    margin-left: 620px;
+}
+.rembio ul li{
+    width:80%;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.rembio ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.rembio ul{
+    margin-top: 850px;
+}
+@media (max-width:321px){
+    .galery{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        width: 500px;
+        height: 100px;
+    }
+
+}
+@media (max-width:321px){
+    .kawalogo img{
+        background-color: hotpink;
+        margin-left: 30px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 40px;
+        height: 80px;
+    }
+    .zusukilogo img{
+        background-color: seashell;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 40px;
+        height: 80px;
+    }
+    .hondalogo img{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 40px;
+        height: 80px;
+    }
+    .benelilogo img{
+        margin-left: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50px;
+        height: 80px;
+    }
+    .bmwlogo img{
+        margin-left: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 60px;
+    }
+    .galeriaon{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .kawatitu ul li {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .kawatitu ul li a{
+        margin-top: 60px;
+    }
+    .kawa250 img{
+        width: 100px;
+        margin-top: 200px;
+        margin-left: -280px;
+    }
+    .kawaexp ul li{
+        width:100%;
+        background-color: rgb(204, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-left: -15px;
+        font-size: 20px;
+    }
+    .kawaexp ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+    .kawaexp ul{
+        margin-top: 150px;
+    }
+    .klxmoto img{
+        width: 100px;
+        height: 104px;
+        margin-top: 200px;
+        margin-left: -90px;
+    }
+    .zxmoto img{
+        width: 90px;
+        height: 104px;
+        margin-top: 200px;
+        margin-left: -190px;
+    }
+    .Giottotitu ul li {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .Giottotitu ul li a{
+        margin-top: 20px;
+    }
+    .gioto1 img{
+        width: 130px;
+        height: 104px;
+        margin-top: 850px;
+        margin-left: -300px;
+    }
+    .gioto2 img{
+        width: 100px;
+        height: 104px;
+        margin-top: 850px;
+        margin-left: -140px;
+    }
+    .gioto3 img{
+        width: 100px;
+        height: 104px;
+        margin-top: 1000px;
+        margin-left: -280px;
+    }
+    .gioto4 img{
+        width: 135px;
+        height: 104px;
+        margin-top: 1000px;
+        margin-left: -140px;
+    }
+    .giotobio ul li{
+        width:100%;
+        background-color: rgb(204, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+    .giotobio ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+    .giotobio ul{
+        margin-top: 300px;
+    }
+    .vici1 img{
+        width: 130px;
+        height: 104px;
+        margin-top: 1850px;
+        margin-left: -300px;
+    }
+    .vici2 img{
+        width: 120px;
+        height: 100px;
+        margin-top: 1850px;
+        margin-left: -150px;
+    }
+    .vici3 img{
+        width: 130px;
+        height: 104px;
+        margin-top: 2000px;
+        margin-left: -300px;
+    }
+    .vici4 img{
+        width: 130px;
+        height: 104px;
+        margin-top: 2000px;
+        margin-left: -150px;
+    }
+    .vici5 img{
+        width: 300px;
+        height: 104px;
+        margin-top: 2150px;
+        margin-left: -300px;
+    }
+    .leonarbio ul li{
+        width:100%;
+        background-color: rgb(204, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-left: -19px;
+        font-size: 20px;
+    }
+    .leonarbio ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1px;
+    }
+    .leonarbio ul{
+        margin-top: 500px;
+    }
+    .paultitu ul li {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .paultitu ul li a{
+        margin-top: 50px;
+    }
+    .paul1 img{
+        width: 130px;
+        margin-top: 3020px;
+        margin-left: -300px;
+    }
+    .paul2 img{
+        width: 130px;
+        margin-top: 3020px;
+        margin-left: -140px;
+    }
+    .paul3 img{
+        width: 130px;
+        margin-top: 3150px;
+        margin-left: -280px;
+    }
+    .paul4 img{
+        width: 130px;
+        margin-top: 3150px;
+        margin-left: -130px;
+    }
+    .paul5 img{
+        width: 130px;
+        margin-top: 3320px;
+        margin-left: -290px;
+    }
+    .paul6 img{
+        width: 130px;
+        margin-top: 3320px;
+        margin-left: -140px;
+    }
+    .paulbio ul li{
+        width:100%;
+        background-color: rgb(204, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+    .paulbio ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+    .paulbio ul{
+        margin-top: 500px;
+    }
+    .remtitu ul li {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .remtitu ul li a{
+        margin-top: 100px;
+    }
+    .rem1 img{
+        width: 150px;
+        height: 100px;
+        margin-top: 1080px;
+        margin-left: 60px;
+    }
+    .rem2 img{
+        width: 150px;
+        height: 100px;
+        margin-top: 1200px;
+        margin-left: -100px;
+    }
+    .rem3 img{
+        width: 150px;
+        height: 100px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    .rem4 img{
+        width: 150px;
+        height: 200px;
+        margin-top: 150px;
+        margin-left: -150px;
+    }
+    .rem5 img{
+        width: 150px;
+        height: 100px;
+        width: 350px;
+        margin-top: 150px;
+        margin-left: -5550px;
+    }
+    .rembio ul li{
+        width:100%;
+        background-color: rgb(204, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+    .rembio ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+    .rembio ul{
+        margin-top: 630px;
+    }
+}
