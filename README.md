@@ -1,0 +1,2 @@
+# galerianur
+primer_archivo
